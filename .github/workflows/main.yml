@@ -23,5 +23,5 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /var/www/html/pb_public
+          cd /var/www/html/TaVue_dist
           git pull origin main
