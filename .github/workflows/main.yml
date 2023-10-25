@@ -25,3 +25,4 @@ jobs:
         script: |
           cd /var/www/html/pb_public
           git pull origin main
+          git status
